@@ -1,3 +1,7 @@
+# Draft.py
+# Author: Connor Townson
+# Date: February 18, 2026
+
 import csv
 import numpy as np
 # You may or may not want to use this package, or others like it
@@ -124,6 +128,8 @@ model.fit(X_poly, y)
 # 3. Predict the smoothed "Value" for every pick 1-60
 # This creates a trendline of value across the draft
 smoothed_values = model.predict(X_poly)
+
+# Display the graph, if needed
 plt.scatter(X, y, color='blue', label='Actual Data')
 plt.plot(X, smoothed_values, color='red', linewidth=2, label='Linear Regression Line')
 plt.title('Estimated Wins Added for each pick in the NBA draft')
