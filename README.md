@@ -2,7 +2,7 @@ DOCUMENTATION
 -------------
 
 If you wish to read about how the program assigns a value to each pick
-in the draft and why the program uses the information and statistics
+in the draft, and why the program uses the information and statistics
 that it does, please read the PDF document titled "CS152 - Draft Lab.pdf".
 
 
